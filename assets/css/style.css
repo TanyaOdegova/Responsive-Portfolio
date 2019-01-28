@@ -126,14 +126,19 @@ border: #111
   line-height:34px;
 
 }
+.row1 {
+  padding-left: 320px;
+  width: auto;
+}
 
 .row1 p {
   padding: 20px 0px 0px;
-   float: right;
+ 
+   
 }
 .cat {
   padding-top: 30px;
-  margin: 10px 0px 1opx 15px;
+  margin: 10px 0px 10px 15px;
   width: 300px;
   float: left;
 }

@@ -3,26 +3,50 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>About | Your Name</title>
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  
 </head>
+<style>
+    .left, .right {
+      float: left;
+      width: 20%; /* The width is 20%, by default */
+    }
+    
+    .main {
+      float: left;
+      width: 60%; /* The width is 60%, by default */
+    }
+    
+    
+    }
+    </style>
+
+
+
+
 
 <body>
 
   <header id="masthead">
     <div class="container">
+<div class="row">
+    <div class="col-lg-12">
       <a href="index.html" id="logo">Your Name</a>
-      <nav>
+      <nav class="navbar">
         <a href="index.html">About</a>
         <a href="portfolio.html">Portfolio</a>
         <a href="contact.html">Contact</a>
       </nav>
+      </div>
     </div>
   </header>
 
   <div id="main-container" class="container">
     <section class="main-section">
-      <h1>About Me</h1>
+      <h1> About Me</h1>
 
       <img src="assets/images/cat.jpg" class="auth-image" alt="Your Name">
 
@@ -37,7 +61,7 @@
   </div>
 
   <footer>
-    <div class="container">
+    <div id="copyright">
       Copyright &copy; 
     </div>
   </footer>
